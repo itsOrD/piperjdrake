@@ -6,7 +6,11 @@ import ViewImageScreen from "./app/screens/ViewImageScreen";
 
 export default function App() {
   // return <ViewImageScreen />;
-  return <WelcomeScreen />;
+  return (
+    <View>
+      <WelcomeScreen />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
